@@ -149,7 +149,8 @@
 		29FF13081F75F0AE00AFD326 /* AppCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FF13071F75F0AE00AFD326 /* AppCoordinatorTests.swift */; };
 		29FF130A1F75F67200AFD326 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FF13091F75F67200AFD326 /* Address.swift */; };
 		29FF130D1F7626E800AFD326 /* FakeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FF130C1F7626E800AFD326 /* FakeNavigationController.swift */; };
-		2A669F5585899E890EF26C57 /* Pods_AlphaWallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B5A03D1E5E417FE79607D0F /* Pods_AlphaWallet.framework */; };
+		2F12950B28CDAF57004438ED /* Pods_AlphaWallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B5A03D1E5E417FE79607D0F /* Pods_AlphaWallet.framework */; };
+		2F12950C28CDAF58004438ED /* Pods_AlphaWallet.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0B5A03D1E5E417FE79607D0F /* Pods_AlphaWallet.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		442FC0B59B23C0F3068621C0 /* NumberStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442FC575B6A4A50B0555E1B0 /* NumberStepper.swift */; };
 		442FC258BAEFDE2D64E48D0D /* NFTCollectionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442FCC8150042FE9179D574A /* NFTCollectionCoordinator.swift */; };
 		442FC546ED56F5C9D3D35471 /* TokenCardRedemptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442FCBDB86579889BC773540 /* TokenCardRedemptionViewModel.swift */; };
@@ -834,6 +835,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		2F12950D28CDAF58004438ED /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2F12950C28CDAF58004438ED /* Pods_AlphaWallet.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		878EE8F6255ADA49000210DE /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1680,8 +1692,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				87FBF2B128056AC200616B7D /* FirebaseCrashlytics in Frameworks */,
-				2A669F5585899E890EF26C57 /* Pods_AlphaWallet.framework in Frameworks */,
 				87B1B5D928C73C170072A5E2 /* WalletConnectSwift in Frameworks */,
+				2F12950B28CDAF57004438ED /* Pods_AlphaWallet.framework in Frameworks */,
 				87BDF47028423DC30018DC68 /* WalletConnect in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -4135,6 +4147,7 @@
 				F6006D07F1DCADBC1150AD02 /* [CP] Copy Pods Resources */,
 				878EE8F6255ADA49000210DE /* Embed App Extensions */,
 				87FBF2B828056D8600616B7D /* Upload debug symbols to Crashlytics */,
+				2F12950D28CDAF58004438ED /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
